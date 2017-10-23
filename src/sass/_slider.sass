@@ -1,0 +1,65 @@
+#slider 
+    font-family: 'Roboto'
+    position: relative
+    .carousel 
+        .carousel-inner 
+            .carousel-item 
+                &:before 
+                    position: absolute
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    background: #2c3e50
+                    opacity: 0.8
+                    z-index: 2
+                    content: ""
+                
+                .carousel-caption 
+                    top: 29%
+                    h1 
+                        font-family: Roboto
+                        font-size: 72px
+                        font-weight: 700
+                        line-height: 85px
+                        text-transform: uppercase
+                        margin-top: 22px
+                    
+                    p 
+                        font-family: Arimo
+                        font-size: 18px
+                        font-weight: 700
+                        line-height: 24px
+                        text-transform: uppercase
+                    
+                    div 
+                        margin: 24px
+                        .classABorder 
+                            color: white
+                            padding: 21px 29px
+                            border-color: white
+                            &:hover
+                                background-color: #51515d
+        >a 
+            &:hover 
+                >.fa 
+                    background: #555555
+        .fa 
+            padding: 26px 7px
+            font-size: 50px
+            background: #111111
+    .js_scrollButton
+        position: absolute
+        width: 52px
+        height: 52px
+        top: 97%
+        left: 48%
+        background: white
+        border: 1px solid #666
+        border-radius: 50%
+        cursor: pointer
+        &:hover
+            top: 98%
+
+        
+    

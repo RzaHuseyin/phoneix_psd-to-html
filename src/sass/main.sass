@@ -1,0 +1,193 @@
+@import 'login'
+@import 'connect'
+@import 'navbar'
+@import 'slider'
+@import 'about'
+@import 'services'
+@import 'count'
+@import 'vehicles'
+@import 'team' 
+@import 'testimonials'
+@import 'pricing'
+@import 'somFacts'
+@import 'contactUs'
+@import 'footer'
+  
+*
+    font-family: 'Roboto'
+    transition: all  .3s ease  
+    &:focus
+        outline: 0 !important
+body
+    font-family: 'Roboto'   
+    
+@font-face
+    font-family: "Roboto"
+    src: url("../css/font/Roboto-Regular.ttf")
+
+@font-face
+    font-family: "Roboto-Black",sans-serif
+    src: url("../css/font/Roboto-Black.ttf")
+
+@font-face
+    font-family: "Arimo"
+    src: url("../css/font/Arimo-Regular.ttf")
+
+div
+    h3
+        color: #222222
+        font-family: Roboto
+        font-size: 28px
+        font-weight: 700
+        line-height: 40px
+        text-transform: uppercase
+p
+    color: #999999
+    font-family: Arimo
+    font-size: 14px
+    font-weight: 400
+    line-height: 24px
+.hrimage
+    margin: 1em 0
+.head
+    margin: 8em  -15px 9em
+    p
+        line-height: 24px
+        text-align: center
+.classA
+    color: #2f50e0
+    font-family: Arimo
+    font-size: 14px
+    font-weight: 700
+    line-height: 24px
+    text-transform: uppercase
+    &:hover
+        color: #6f85e6
+.classABorder
+    font-family: Arimo
+    font-size: 12px
+    font-weight: 400
+    line-height: 70px
+    text-transform: uppercase
+    border: 2px solid black
+    border-radius: 3em
+    &:hover
+        background: #d4d4be
+.classSpan
+    color: #2f50e0
+    font-family: Roboto
+    font-size: 12px
+    font-weight: 700
+    line-height: 12px
+div
+    h6 
+        color: #222222
+        font-family: Roboto
+        font-size: 20px
+        font-weight: 700
+
+.bgcolor3
+        background-color: #fafafa 
+.bgcolor1
+    background-color: #111111
+.bgcolor2
+    background-color: #2f50e0 
+.bgcolor4
+        background-color: #ececec 
+
+.classUl
+    width: 100%
+    li
+        border: 0
+        color: #777777
+        font-family: Roboto
+        font-size: 14px
+        font-weight: 400
+        line-height: 35px
+        padding: 0
+        background-color: transparent 
+        &:before
+            color: #2f50e0
+            font-weight: 400
+            font-family: fontAwesome
+            margin-right: 5px
+a
+    &:hover
+        text-decoration: none!important
+
+.faLink
+    border: 1px solid #eeeeee
+    background-color: #ffffff
+    border-radius: 100%
+    width: 50px
+    height: 50px
+    margin-left: 8px
+    &:hover
+        border-color: #888
+// /common class for opacity of background image section ( #count and #samFact)
+.hoverOpacity
+    background-image: url('../image/background.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    position: relative
+    z-index: 0
+    &:after 
+        content: ""
+        opacity: 0.7
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        position: absolute
+        z-index: 0 
+        background-color: #4f69dc
+    .container
+        position: relative
+        z-index: 1
+    // /   ===>>              reset css 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+    margin: 0
+    padding: 0
+    border: 0
+    font-size: 100%
+    font: inherit
+    vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section 
+    display: block
+
+body
+    line-height: 1
+
+ol, ul
+    list-style: none
+
+blockquote, q
+    quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+    content: ''
+    content: none
+
+table
+    border-collapse: collapse
+    border-spacing: 0
+
+
+

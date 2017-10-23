@@ -1,0 +1,15 @@
+>>servises sectionda minHeight -class-in yiqisdirmaq             >>>OK
+>>navbar-da right buton arxa fon                                 >>>OK
+>>#count section'da after hoverin z-indexin duzelt               >>>OK
+>>2 sectionda background after artir                             >>>OK
+>> bigpicture sectiondan 2-cide ul-lerin arasin artir            >>>OK
+>>connect- sectionda sekille metin arasinda mesafeni artir       >>>OK
+>>sectionlar ferqlensin backgroundlari                           >>>OK
+>>inputlarin borderleri azlasin, placeholder ortaya gelsin       >>>OK
+>>footer-da orta xett 1px olsun                                  >>>OK   
+>>count section height azalt                                     >>>OK         
+>>button'lar ve -a href'ler -hover                               >>>OK
+>>poppap                                                         >>>OK
+>> section about-da uzerine gelende box-shadow                   >>>OK
+>>smooth csroll 
+>> hover olarken borderler kenara cixir
